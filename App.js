@@ -51,7 +51,6 @@ export default function App() {
     mainScreen = <GameFinishedScreen numberOfRounds={guessRounds} choosenNumber={userNumber} restartGame={restartGameHandler} />
   }
 
-
   return (
     <SafeAreaView style={styles.screen}>
       <Header title="Number Game" />
